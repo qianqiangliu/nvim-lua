@@ -25,6 +25,7 @@ require('packer').startup(function(use)
   use "ellisonleao/gruvbox.nvim"
   use "hrsh7th/nvim-cmp"
   use 'tiagovla/tokyodark.nvim'
+  use "rebelot/kanagawa.nvim"
 
   -- setup
   require('lualine').setup()
@@ -64,5 +65,5 @@ require('packer').startup(function(use)
       }
   end
 
-  vim.cmd([[colorscheme tokyodark]])
+  vim.cmd([[colorscheme kanagawa]])
 end)
